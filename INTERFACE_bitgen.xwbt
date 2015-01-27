@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\sed\Desktop\SED\INTERFACE.ncd
+OUTFILE=C:\Users\sed\Desktop\SED\INTERFACE.bit
+FAMILY=Spartan3
+PART=xc3s200-5ft256
+WORKINGDIR=C:\Users\sed\Desktop\SED
+LICENSE=WebPack
+USER_INFO=210680958_0_0_252

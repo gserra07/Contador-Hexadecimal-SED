@@ -1,0 +1,161 @@
+#-----------------------------------------------------------
+# PlanAhead v14.4
+# Build 222254 by xbuild on Tue Dec 18 05:23:01 MST 2012
+# Start of session at: Sun Jan 18 20:27:48 2015
+# Process ID: 8648
+# Log file: C:/Users/Serrano/Desktop/SED/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Serrano/Desktop/SED/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/Serrano/Desktop/SED/pa.fromNetlist.tcl
+set_property iostandard LVCMOS33 [get_ports [list {code[7]} {code[6]} {code[5]} {code[4]} {code[3]} {code[2]} {code[1]} {code[0]} {digctrl[3]} {digctrl[2]} {digctrl[1]} {digctrl[0]} {digsel[3]} {digsel[2]} {digsel[1]} {digsel[0]} {segment[7]} {segment[6]} {segment[5]} {segment[4]} {segment[3]} {segment[2]} {segment[1]} {segment[0]} clk]]
+set_property drive 12 [get_ports [list {code[7]} {code[6]} {code[5]} {code[4]} {code[3]} {code[2]} {code[1]} {code[0]} {digctrl[3]} {digctrl[2]} {digctrl[1]} {digctrl[0]} {digsel[3]} {digsel[2]} {digsel[1]} {digsel[0]} {segment[7]} {segment[6]} {segment[5]} {segment[4]} {segment[3]} {segment[2]} {segment[1]} {segment[0]} clk]]
+set_property slew SLOW [get_ports [list {code[7]} {code[6]} {code[5]} {code[4]} {code[3]} {code[2]} {code[1]} {code[0]} {digctrl[3]} {digctrl[2]} {digctrl[1]} {digctrl[0]} {digsel[3]} {digsel[2]} {digsel[1]} {digsel[0]} {segment[7]} {segment[6]} {segment[5]} {segment[4]} {segment[3]} {segment[2]} {segment[1]} {segment[0]} clk]]
+startgroup
+set_property package_pin E14 [get_ports {code[7]}]
+endgroup
+startgroup
+set_property package_pin G13 [get_ports {code[6]}]
+endgroup
+startgroup
+set_property package_pin N15 [get_ports {code[5]}]
+endgroup
+startgroup
+set_property package_pin P16 [get_ports {code[0]}]
+endgroup
+startgroup
+set_property package_pin E13 [get_ports {code[1]}]
+endgroup
+set_property package_pin "" [get_ports [list  {code[6]}]]
+set_property package_pin "" [get_ports [list  {code[7]}]]
+set_property package_pin "" [get_ports [list  {code[2]}]]
+set_property package_pin "" [get_ports [list  {code[5]}]]
+startgroup
+set_property package_pin E14 [get_ports {code[1]}]
+endgroup
+startgroup
+set_property package_pin G13 [get_ports {code[2]}]
+endgroup
+startgroup
+set_property package_pin N15 [get_ports {code[3]}]
+endgroup
+set_property package_pin "" [get_ports [list  {code[5]}]]
+startgroup
+set_property package_pin P15 [get_ports {code[4]}]
+endgroup
+startgroup
+set_property package_pin R16 [get_ports {code[5]}]
+endgroup
+startgroup
+set_property package_pin F13 [get_ports {code[6]}]
+endgroup
+startgroup
+set_property package_pin N16 [get_ports {code[7]}]
+endgroup
+startgroup
+set_property package_pin D14 [get_ports {digctrl[0]}]
+endgroup
+startgroup
+set_property package_pin G14 [get_ports {digctrl[1]}]
+endgroup
+startgroup
+set_property package_pin F14 [get_ports {digctrl[2]}]
+endgroup
+startgroup
+set_property iostandard {} [get_ports [list {digctrl[3]}]]
+set_property slew {} [get_ports [list {digctrl[3]}]]
+set_property drive {} [get_ports [list {digctrl[3]}]]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {digctrl[0]}]]
+startgroup
+set_property package_pin E13 [get_ports {digctrl[3]}]
+endgroup
+set_property package_pin "" [get_ports [list  {digsel[3]}]]
+set_property package_pin "" [get_ports [list  {digsel[3]}]]
+set_property is_loc_fixed true [get_ports [list  {digctrl[0]}]]
+startgroup
+set_property package_pin L14 [get_ports {digsel[3]}]
+endgroup
+set_property package_pin "" [get_ports [list  {digsel[2]}]]
+startgroup
+set_property package_pin L13 [get_ports {digsel[0]}]
+endgroup
+startgroup
+set_property package_pin M14 [get_ports {digsel[1]}]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports {digsel[2]}]
+endgroup
+set_property package_pin "" [get_ports [list  {segment[7]}]]
+set_property package_pin "" [get_ports [list  {code[7]}]]
+startgroup
+set_property package_pin N16 [get_ports {segment[7]}]
+endgroup
+set_property package_pin "" [get_ports [list  {code[6]}]]
+startgroup
+set_property package_pin F13 [get_ports {segment[6]}]
+endgroup
+set_property package_pin "" [get_ports [list  {segment[0]}]]
+set_property package_pin "" [get_ports [list  {code[0]}]]
+startgroup
+set_property package_pin E14 [get_ports {code[1]}]
+endgroup
+startgroup
+set_property package_pin G13 [get_ports {code[2]}]
+endgroup
+set_property package_pin "" [get_ports [list  {code[3]}]]
+set_property package_pin "" [get_ports [list  {code[4]}]]
+set_property package_pin "" [get_ports [list  {code[2]}]]
+set_property package_pin "" [get_ports [list  {code[1]}]]
+set_property package_pin "" [get_ports [list  {code[5]}]]
+set_property package_pin "" [get_ports [list  {segment[6]}]]
+set_property package_pin "" [get_ports [list  {segment[7]}]]
+startgroup
+set_property package_pin P16 [get_ports {segment[0]}]
+endgroup
+startgroup
+set_property package_pin E14 [get_ports {segment[1]}]
+endgroup
+startgroup
+set_property package_pin G13 [get_ports {segment[2]}]
+endgroup
+startgroup
+set_property package_pin N15 [get_ports {segment[3]}]
+endgroup
+startgroup
+set_property package_pin P15 [get_ports {segment[4]}]
+endgroup
+startgroup
+set_property package_pin R16 [get_ports {segment[5]}]
+endgroup
+startgroup
+set_property package_pin F13 [get_ports {segment[6]}]
+endgroup
+startgroup
+set_property package_pin N16 [get_ports {segment[7]}]
+endgroup
+startgroup
+set_property package_pin F12 [get_ports {code[0]}]
+endgroup
+startgroup
+set_property package_pin G12 [get_ports {code[1]}]
+endgroup
+startgroup
+set_property package_pin H14 [get_ports {code[2]}]
+endgroup
+startgroup
+set_property package_pin H13 [get_ports {code[3]}]
+endgroup
+startgroup
+set_property package_pin J14 [get_ports {code[4]}]
+endgroup
+startgroup
+set_property package_pin J13 [get_ports {code[5]}]
+endgroup
+startgroup
+set_property package_pin K14 [get_ports {code[6]}]
+endgroup
+startgroup
+set_property package_pin K13 [get_ports {code[7]}]
+endgroup
+save_constraints

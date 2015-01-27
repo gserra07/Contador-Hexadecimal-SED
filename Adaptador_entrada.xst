@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/daniel/Desktop/GITHUB/SED/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/daniel/Desktop/GITHUB/SED/xst"
+elaborate
+-ifn Adaptador_entrada.prj
+-ifmt mixed

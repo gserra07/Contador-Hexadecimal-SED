@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Tarzan/Desktop/glkkkkk+/SED OP/FFSR_tb_isim_beh.exe" -prj "C:/Users/Tarzan/Desktop/glkkkkk+/SED OP/FFSR_tb_beh.prj" "work.FFSR_tb" 

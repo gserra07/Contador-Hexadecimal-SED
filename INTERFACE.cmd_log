@@ -1,0 +1,167 @@
+xst -intstyle ise -ifn "C:/Users/daniel/Desktop/GITHUB/SED/INTERFACE.xst" -ofn "C:/Users/daniel/Desktop/GITHUB/SED/INTERFACE.syr" 
+xst -intstyle ise -ifn "C:/Users/daniel/Desktop/GITHUB/SED/INTERFACE.xst" -ofn "C:/Users/daniel/Desktop/GITHUB/SED/INTERFACE.syr" 
+xst -intstyle ise -ifn "C:/Users/daniel/Desktop/GITHUB/SED/INTERFACE.xst" -ofn "C:/Users/daniel/Desktop/GITHUB/SED/INTERFACE.syr" 
+xst -intstyle ise -ifn "C:/Users/daniel/Desktop/GITHUB/SED/INTERFACE.xst" -ofn "C:/Users/daniel/Desktop/GITHUB/SED/INTERFACE.syr" 
+xst -intstyle ise -ifn "C:/Users/daniel/Desktop/GITHUB/SED/INTERFACE.xst" -ofn "C:/Users/daniel/Desktop/GITHUB/SED/INTERFACE.syr" 
+xst -intstyle ise -ifn "C:/Users/daniel/Desktop/GITHUB/SED/INTERFACE.xst" -ofn "C:/Users/daniel/Desktop/GITHUB/SED/INTERFACE.syr" 
+xst -intstyle ise -ifn "C:/Users/daniel/Desktop/GITHUB/SED/INTERFACE.xst" -ofn "C:/Users/daniel/Desktop/GITHUB/SED/INTERFACE.syr" 
+xst -intstyle ise -ifn "C:/Users/daniel/Desktop/GITHUB/SED/INTERFACE.xst" -ofn "C:/Users/daniel/Desktop/GITHUB/SED/INTERFACE.syr" 
+xst -intstyle ise -ifn "C:/Users/daniel/Desktop/GITHUB/SED/INTERFACE.xst" -ofn "C:/Users/daniel/Desktop/GITHUB/SED/INTERFACE.syr" 
+xst -intstyle ise -ifn "C:/Users/daniel/Desktop/GITHUB/SED/INTERFACE.xst" -ofn "C:/Users/daniel/Desktop/GITHUB/SED/INTERFACE.syr" 
+xst -intstyle ise -ifn "C:/Users/daniel/Desktop/GITHUB/SED/INTERFACE.xst" -ofn "C:/Users/daniel/Desktop/GITHUB/SED/INTERFACE.syr" 
+xst -intstyle ise -ifn "C:/Users/daniel/Desktop/GITHUB/SED/INTERFACE.xst" -ofn "C:/Users/daniel/Desktop/GITHUB/SED/INTERFACE.syr" 
+xst -intstyle ise -ifn "C:/Users/daniel/Desktop/GITHUB/SED/INTERFACE.xst" -ofn "C:/Users/daniel/Desktop/GITHUB/SED/INTERFACE.syr" 
+xst -intstyle ise -ifn "C:/Users/daniel/Desktop/GITHUB/SED/INTERFACE.xst" -ofn "C:/Users/daniel/Desktop/GITHUB/SED/INTERFACE.syr" 
+xst -intstyle ise -ifn "C:/Users/daniel/Desktop/GITHUB/SED/INTERFACE.xst" -ofn "C:/Users/daniel/Desktop/GITHUB/SED/INTERFACE.syr" 
+xst -intstyle ise -ifn "C:/Users/daniel/Desktop/GITHUB/SED/INTERFACE.xst" -ofn "C:/Users/daniel/Desktop/GITHUB/SED/INTERFACE.syr" 
+xst -intstyle ise -ifn "C:/Users/daniel/Desktop/GITHUB/SED/INTERFACE.xst" -ofn "C:/Users/daniel/Desktop/GITHUB/SED/INTERFACE.syr" 
+xst -intstyle ise -ifn "C:/Users/daniel/Desktop/GITHUB/SED/INTERFACE.xst" -ofn "C:/Users/daniel/Desktop/GITHUB/SED/INTERFACE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc INTERFACE.ucf -p xc3s200-ft256-5 INTERFACE.ngc INTERFACE.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o INTERFACE_map.ncd INTERFACE.ngd INTERFACE.pcf 
+par -w -intstyle ise -ol high -t 1 INTERFACE_map.ncd INTERFACE.ncd INTERFACE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml INTERFACE.twx INTERFACE.ncd -o INTERFACE.twr INTERFACE.pcf -ucf INTERFACE.ucf 
+par -w -intstyle ise -ol high -t 1 INTERFACE_map.ncd INTERFACE.ncd INTERFACE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml INTERFACE.twx INTERFACE.ncd -o INTERFACE.twr INTERFACE.pcf -ucf INTERFACE.ucf 
+xst -intstyle ise -ifn "C:/Users/sed/Desktop/SED/INTERFACE.xst" -ofn "C:/Users/sed/Desktop/SED/INTERFACE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc INTERFACE.ucf -p xc3s200-ft256-5 INTERFACE.ngc INTERFACE.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o INTERFACE_map.ncd INTERFACE.ngd INTERFACE.pcf 
+par -w -intstyle ise -ol high -t 1 INTERFACE_map.ncd INTERFACE.ncd INTERFACE.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc INTERFACE.ucf -p xc3s200-ft256-5 INTERFACE.ngc INTERFACE.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o INTERFACE_map.ncd INTERFACE.ngd INTERFACE.pcf 
+par -w -intstyle ise -ol high -t 1 INTERFACE_map.ncd INTERFACE.ncd INTERFACE.pcf 
+xst -intstyle ise -ifn "C:/Users/sed/Desktop/SED/INTERFACE.xst" -ofn "C:/Users/sed/Desktop/SED/INTERFACE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc INTERFACE.ucf -p xc3s200-ft256-5 INTERFACE.ngc INTERFACE.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o INTERFACE_map.ncd INTERFACE.ngd INTERFACE.pcf 
+par -w -intstyle ise -ol high -t 1 INTERFACE_map.ncd INTERFACE.ncd INTERFACE.pcf 
+xst -intstyle ise -ifn "C:/Users/sed/Desktop/SED/INTERFACE.xst" -ofn "C:/Users/sed/Desktop/SED/INTERFACE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc INTERFACE.ucf -p xc3s200-ft256-5 INTERFACE.ngc INTERFACE.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o INTERFACE_map.ncd INTERFACE.ngd INTERFACE.pcf 
+par -w -intstyle ise -ol high -t 1 INTERFACE_map.ncd INTERFACE.ncd INTERFACE.pcf 
+xst -intstyle ise -ifn "C:/Users/sed/Desktop/SED/INTERFACE.xst" -ofn "C:/Users/sed/Desktop/SED/INTERFACE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc INTERFACE.ucf -p xc3s200-ft256-5 INTERFACE.ngc INTERFACE.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o INTERFACE_map.ncd INTERFACE.ngd INTERFACE.pcf 
+par -w -intstyle ise -ol high -t 1 INTERFACE_map.ncd INTERFACE.ncd INTERFACE.pcf 
+xst -intstyle ise -ifn "C:/Users/sed/Desktop/SED/INTERFACE.xst" -ofn "C:/Users/sed/Desktop/SED/INTERFACE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc INTERFACE.ucf -p xc3s200-ft256-5 INTERFACE.ngc INTERFACE.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o INTERFACE_map.ncd INTERFACE.ngd INTERFACE.pcf 
+par -w -intstyle ise -ol high -t 1 INTERFACE_map.ncd INTERFACE.ncd INTERFACE.pcf 
+xst -intstyle ise -ifn "C:/Users/sed/Desktop/SED/INTERFACE.xst" -ofn "C:/Users/sed/Desktop/SED/INTERFACE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc INTERFACE.ucf -p xc3s200-ft256-5 INTERFACE.ngc INTERFACE.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o INTERFACE_map.ncd INTERFACE.ngd INTERFACE.pcf 
+par -w -intstyle ise -ol high -t 1 INTERFACE_map.ncd INTERFACE.ncd INTERFACE.pcf 
+xst -intstyle ise -ifn "C:/Users/sed/Desktop/SED/INTERFACE.xst" -ofn "C:/Users/sed/Desktop/SED/INTERFACE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc INTERFACE.ucf -p xc3s200-ft256-5 INTERFACE.ngc INTERFACE.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o INTERFACE_map.ncd INTERFACE.ngd INTERFACE.pcf 
+par -w -intstyle ise -ol high -t 1 INTERFACE_map.ncd INTERFACE.ncd INTERFACE.pcf 
+xst -intstyle ise -ifn "C:/Users/sed/Desktop/SED/INTERFACE.xst" -ofn "C:/Users/sed/Desktop/SED/INTERFACE.syr" 
+xst -intstyle ise -ifn "C:/Users/sed/Desktop/SED/INTERFACE.xst" -ofn "C:/Users/sed/Desktop/SED/INTERFACE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc INTERFACE.ucf -p xc3s200-ft256-5 INTERFACE.ngc INTERFACE.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o INTERFACE_map.ncd INTERFACE.ngd INTERFACE.pcf 
+par -w -intstyle ise -ol high -t 1 INTERFACE_map.ncd INTERFACE.ncd INTERFACE.pcf 
+xst -intstyle ise -ifn "C:/Users/sed/Desktop/SED/INTERFACE.xst" -ofn "C:/Users/sed/Desktop/SED/INTERFACE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc INTERFACE.ucf -p xc3s200-ft256-5 INTERFACE.ngc INTERFACE.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o INTERFACE_map.ncd INTERFACE.ngd INTERFACE.pcf 
+par -w -intstyle ise -ol high -t 1 INTERFACE_map.ncd INTERFACE.ncd INTERFACE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml INTERFACE.twx INTERFACE.ncd -o INTERFACE.twr INTERFACE.pcf -ucf INTERFACE.ucf 
+bitgen -intstyle ise -f INTERFACE.ut INTERFACE.ncd 
+xst -intstyle ise -ifn "C:/Users/sed/Desktop/SED/INTERFACE.xst" -ofn "C:/Users/sed/Desktop/SED/INTERFACE.syr" 
+xst -intstyle ise -ifn "C:/Users/sed/Desktop/SED/INTERFACE.xst" -ofn "C:/Users/sed/Desktop/SED/INTERFACE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc INTERFACE.ucf -p xc3s200-ft256-5 INTERFACE.ngc INTERFACE.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o INTERFACE_map.ncd INTERFACE.ngd INTERFACE.pcf 
+par -w -intstyle ise -ol high -t 1 INTERFACE_map.ncd INTERFACE.ncd INTERFACE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml INTERFACE.twx INTERFACE.ncd -o INTERFACE.twr INTERFACE.pcf -ucf INTERFACE.ucf 
+bitgen -intstyle ise -f INTERFACE.ut INTERFACE.ncd 
+bitgen -intstyle ise -f INTERFACE.ut INTERFACE.ncd 
+bitgen -intstyle ise -f INTERFACE.ut INTERFACE.ncd 
+xst -intstyle ise -ifn "C:/Users/sed/Desktop/SED/INTERFACE.xst" -ofn "C:/Users/sed/Desktop/SED/INTERFACE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc INTERFACE.ucf -p xc3s200-ft256-5 INTERFACE.ngc INTERFACE.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o INTERFACE_map.ncd INTERFACE.ngd INTERFACE.pcf 
+par -w -intstyle ise -ol high -t 1 INTERFACE_map.ncd INTERFACE.ncd INTERFACE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml INTERFACE.twx INTERFACE.ncd -o INTERFACE.twr INTERFACE.pcf -ucf INTERFACE.ucf 
+bitgen -intstyle ise -f INTERFACE.ut INTERFACE.ncd 
+xst -intstyle ise -ifn "C:/Users/sed/Desktop/SED/INTERFACE.xst" -ofn "C:/Users/sed/Desktop/SED/INTERFACE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc INTERFACE.ucf -p xc3s200-ft256-5 INTERFACE.ngc INTERFACE.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o INTERFACE_map.ncd INTERFACE.ngd INTERFACE.pcf 
+par -w -intstyle ise -ol high -t 1 INTERFACE_map.ncd INTERFACE.ncd INTERFACE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml INTERFACE.twx INTERFACE.ncd -o INTERFACE.twr INTERFACE.pcf -ucf INTERFACE.ucf 
+bitgen -intstyle ise -f INTERFACE.ut INTERFACE.ncd 
+xst -intstyle ise -ifn "C:/Users/sed/Desktop/SED/INTERFACE.xst" -ofn "C:/Users/sed/Desktop/SED/INTERFACE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc INTERFACE.ucf -p xc3s200-ft256-5 INTERFACE.ngc INTERFACE.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o INTERFACE_map.ncd INTERFACE.ngd INTERFACE.pcf 
+par -w -intstyle ise -ol high -t 1 INTERFACE_map.ncd INTERFACE.ncd INTERFACE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml INTERFACE.twx INTERFACE.ncd -o INTERFACE.twr INTERFACE.pcf -ucf INTERFACE.ucf 
+bitgen -intstyle ise -f INTERFACE.ut INTERFACE.ncd 
+xst -intstyle ise -ifn "C:/Users/sed/Desktop/SED/INTERFACE.xst" -ofn "C:/Users/sed/Desktop/SED/INTERFACE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc INTERFACE.ucf -p xc3s200-ft256-5 INTERFACE.ngc INTERFACE.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o INTERFACE_map.ncd INTERFACE.ngd INTERFACE.pcf 
+par -w -intstyle ise -ol high -t 1 INTERFACE_map.ncd INTERFACE.ncd INTERFACE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml INTERFACE.twx INTERFACE.ncd -o INTERFACE.twr INTERFACE.pcf -ucf INTERFACE.ucf 
+bitgen -intstyle ise -f INTERFACE.ut INTERFACE.ncd 
+xst -intstyle ise -ifn "C:/Users/sed/Desktop/SED/INTERFACE.xst" -ofn "C:/Users/sed/Desktop/SED/INTERFACE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc INTERFACE.ucf -p xc3s200-ft256-5 INTERFACE.ngc INTERFACE.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o INTERFACE_map.ncd INTERFACE.ngd INTERFACE.pcf 
+par -w -intstyle ise -ol high -t 1 INTERFACE_map.ncd INTERFACE.ncd INTERFACE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml INTERFACE.twx INTERFACE.ncd -o INTERFACE.twr INTERFACE.pcf -ucf INTERFACE.ucf 
+bitgen -intstyle ise -f INTERFACE.ut INTERFACE.ncd 
+xst -intstyle ise -ifn "C:/Users/sed/Desktop/SED/INTERFACE.xst" -ofn "C:/Users/sed/Desktop/SED/INTERFACE.syr" 
+xst -intstyle ise -ifn "C:/Users/sed/Desktop/SED/INTERFACE.xst" -ofn "C:/Users/sed/Desktop/SED/INTERFACE.syr" 
+xst -intstyle ise -ifn "C:/Users/sed/Desktop/SED/INTERFACE.xst" -ofn "C:/Users/sed/Desktop/SED/INTERFACE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc INTERFACE.ucf -p xc3s200-ft256-5 INTERFACE.ngc INTERFACE.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o INTERFACE_map.ncd INTERFACE.ngd INTERFACE.pcf 
+par -w -intstyle ise -ol high -t 1 INTERFACE_map.ncd INTERFACE.ncd INTERFACE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml INTERFACE.twx INTERFACE.ncd -o INTERFACE.twr INTERFACE.pcf -ucf INTERFACE.ucf 
+bitgen -intstyle ise -f INTERFACE.ut INTERFACE.ncd 
+xst -intstyle ise -ifn "C:/Users/sed/Desktop/SED/INTERFACE.xst" -ofn "C:/Users/sed/Desktop/SED/INTERFACE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc INTERFACE.ucf -p xc3s200-ft256-5 INTERFACE.ngc INTERFACE.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o INTERFACE_map.ncd INTERFACE.ngd INTERFACE.pcf 
+par -w -intstyle ise -ol high -t 1 INTERFACE_map.ncd INTERFACE.ncd INTERFACE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml INTERFACE.twx INTERFACE.ncd -o INTERFACE.twr INTERFACE.pcf -ucf INTERFACE.ucf 
+bitgen -intstyle ise -f INTERFACE.ut INTERFACE.ncd 
+xst -intstyle ise -ifn "C:/Users/sed/Desktop/SED/INTERFACE.xst" -ofn "C:/Users/sed/Desktop/SED/INTERFACE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc INTERFACE.ucf -p xc3s200-ft256-5 INTERFACE.ngc INTERFACE.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o INTERFACE_map.ncd INTERFACE.ngd INTERFACE.pcf 
+par -w -intstyle ise -ol high -t 1 INTERFACE_map.ncd INTERFACE.ncd INTERFACE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml INTERFACE.twx INTERFACE.ncd -o INTERFACE.twr INTERFACE.pcf -ucf INTERFACE.ucf 
+bitgen -intstyle ise -f INTERFACE.ut INTERFACE.ncd 
+xst -intstyle ise -ifn "C:/Users/sed/Desktop/SED/INTERFACE.xst" -ofn "C:/Users/sed/Desktop/SED/INTERFACE.syr" 
+xst -intstyle ise -ifn "C:/Users/sed/Desktop/SED/INTERFACE.xst" -ofn "C:/Users/sed/Desktop/SED/INTERFACE.syr" 
+xst -intstyle ise -ifn "C:/Users/sed/Desktop/SED/INTERFACE.xst" -ofn "C:/Users/sed/Desktop/SED/INTERFACE.syr" 
+xst -intstyle ise -ifn "C:/Users/sed/Desktop/SED/INTERFACE.xst" -ofn "C:/Users/sed/Desktop/SED/INTERFACE.syr" 
+xst -intstyle ise -ifn "C:/Users/sed/Desktop/SED/INTERFACE.xst" -ofn "C:/Users/sed/Desktop/SED/INTERFACE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc INTERFACE.ucf -p xc3s200-ft256-5 INTERFACE.ngc INTERFACE.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o INTERFACE_map.ncd INTERFACE.ngd INTERFACE.pcf 
+par -w -intstyle ise -ol high -t 1 INTERFACE_map.ncd INTERFACE.ncd INTERFACE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml INTERFACE.twx INTERFACE.ncd -o INTERFACE.twr INTERFACE.pcf -ucf INTERFACE.ucf 
+bitgen -intstyle ise -f INTERFACE.ut INTERFACE.ncd 
+xst -intstyle ise -ifn "C:/Users/sed/Desktop/SED/INTERFACE.xst" -ofn "C:/Users/sed/Desktop/SED/INTERFACE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc INTERFACE.ucf -p xc3s200-ft256-5 INTERFACE.ngc INTERFACE.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o INTERFACE_map.ncd INTERFACE.ngd INTERFACE.pcf 
+par -w -intstyle ise -ol high -t 1 INTERFACE_map.ncd INTERFACE.ncd INTERFACE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml INTERFACE.twx INTERFACE.ncd -o INTERFACE.twr INTERFACE.pcf -ucf INTERFACE.ucf 
+bitgen -intstyle ise -f INTERFACE.ut INTERFACE.ncd 
+xst -intstyle ise -ifn "C:/Users/sed/Desktop/SED/INTERFACE.xst" -ofn "C:/Users/sed/Desktop/SED/INTERFACE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc INTERFACE.ucf -p xc3s200-ft256-5 INTERFACE.ngc INTERFACE.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o INTERFACE_map.ncd INTERFACE.ngd INTERFACE.pcf 
+par -w -intstyle ise -ol high -t 1 INTERFACE_map.ncd INTERFACE.ncd INTERFACE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml INTERFACE.twx INTERFACE.ncd -o INTERFACE.twr INTERFACE.pcf -ucf INTERFACE.ucf 
+bitgen -intstyle ise -f INTERFACE.ut INTERFACE.ncd 
+xst -intstyle ise -ifn "C:/Users/sed/Desktop/SED/INTERFACE.xst" -ofn "C:/Users/sed/Desktop/SED/INTERFACE.syr" 
+xst -intstyle ise -ifn "C:/Users/sed/Desktop/SED/INTERFACE.xst" -ofn "C:/Users/sed/Desktop/SED/INTERFACE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc INTERFACE.ucf -p xc3s200-ft256-5 INTERFACE.ngc INTERFACE.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o INTERFACE_map.ncd INTERFACE.ngd INTERFACE.pcf 
+par -w -intstyle ise -ol high -t 1 INTERFACE_map.ncd INTERFACE.ncd INTERFACE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml INTERFACE.twx INTERFACE.ncd -o INTERFACE.twr INTERFACE.pcf -ucf INTERFACE.ucf 
+bitgen -intstyle ise -f INTERFACE.ut INTERFACE.ncd 
+xst -intstyle ise -ifn "C:/Users/sed/Desktop/SED/INTERFACE.xst" -ofn "C:/Users/sed/Desktop/SED/INTERFACE.syr" 
+xst -intstyle ise -ifn "C:/Users/sed/Desktop/SED/INTERFACE.xst" -ofn "C:/Users/sed/Desktop/SED/INTERFACE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc INTERFACE.ucf -p xc3s200-ft256-5 INTERFACE.ngc INTERFACE.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o INTERFACE_map.ncd INTERFACE.ngd INTERFACE.pcf 
+par -w -intstyle ise -ol high -t 1 INTERFACE_map.ncd INTERFACE.ncd INTERFACE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml INTERFACE.twx INTERFACE.ncd -o INTERFACE.twr INTERFACE.pcf -ucf INTERFACE.ucf 
+bitgen -intstyle ise -f INTERFACE.ut INTERFACE.ncd 
+xst -intstyle ise -ifn "C:/Users/sed/Desktop/SED/INTERFACE.xst" -ofn "C:/Users/sed/Desktop/SED/INTERFACE.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc INTERFACE.ucf -p xc3s200-ft256-5 INTERFACE.ngc INTERFACE.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o INTERFACE_map.ncd INTERFACE.ngd INTERFACE.pcf 
+par -w -intstyle ise -ol high -t 1 INTERFACE_map.ncd INTERFACE.ncd INTERFACE.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml INTERFACE.twx INTERFACE.ncd -o INTERFACE.twr INTERFACE.pcf -ucf INTERFACE.ucf 
+bitgen -intstyle ise -f INTERFACE.ut INTERFACE.ncd 

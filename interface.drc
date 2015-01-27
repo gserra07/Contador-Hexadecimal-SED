@@ -1,0 +1,13 @@
+Release 14.1 Drc P.15xf (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Mon Jan 19 15:54:19 2015
+
+drc -z INTERFACE.ncd INTERFACE.pcf
+
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   contador/Adaptador_de_entrada/AUX_1_cmp_le0000 is sourced by a combinatorial
+   pin. This is not good design practice. Use the CE pin to control the loading
+   of data into the flip-flop.
+DRC detected 0 errors and 1 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

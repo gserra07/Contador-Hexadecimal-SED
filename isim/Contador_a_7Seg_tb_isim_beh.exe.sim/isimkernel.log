@@ -1,0 +1,35 @@
+Command line:
+   Contador_a_7Seg_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56802
+
+Tue Jan 20 00:57:14 2015
+
+
+ Elaboration Time: 0.436804 sec
+
+ Current Memory Usage: 843.903 Meg
+
+ Total Signals          : 359
+ Total Nets             : 173
+ Total Signal Drivers   : 114
+ Total Blocks           : 75
+ Total Primitive Blocks : 70
+ Total Processes        : 109
+ Total Traceable Variables  : 12
+ Total Scalar Nets and Variables : 551
+Total Line Count : 214
+
+** Failure:FIN de la suministracion
+User(VHDL) Code Called Simulation Stop
+In process Contador_a_7Seg_tb.vhd:stim_proc 
+ 
+
+
+ Total Simulation Time: 0.452404 sec
+
+ Current Memory Usage: 843.903 Meg
+
+Tue Jan 20 00:57:19 2015
+

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">AUX_1</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">MODE</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">salidas&lt;1&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">HIGH</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">1</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="79" delta="old" >Model &apos;<arg fmt="%s" index="1">AND2</arg>&apos; has different characteristics in destination library
+</msg>
+
+<msg type="warning" file="Xst" num="80" delta="old" >Model name has been changed to &apos;<arg fmt="%s" index="1">AND21</arg>&apos;
+</msg>
+
+<msg type="warning" file="Xst" num="79" delta="old" >Model &apos;<arg fmt="%s" index="1">AND3</arg>&apos; has different characteristics in destination library
+</msg>
+
+<msg type="warning" file="Xst" num="80" delta="old" >Model name has been changed to &apos;<arg fmt="%s" index="1">AND31</arg>&apos;
+</msg>
+
+<msg type="warning" file="Xst" num="79" delta="old" >Model &apos;<arg fmt="%s" index="1">INV</arg>&apos; has different characteristics in destination library
+</msg>
+
+<msg type="warning" file="Xst" num="80" delta="old" >Model name has been changed to &apos;<arg fmt="%s" index="1">INV1</arg>&apos;
+</msg>
+
+<msg type="warning" file="Xst" num="79" delta="old" >Model &apos;<arg fmt="%s" index="1">OR2</arg>&apos; has different characteristics in destination library
+</msg>
+
+<msg type="warning" file="Xst" num="80" delta="old" >Model name has been changed to &apos;<arg fmt="%s" index="1">OR21</arg>&apos;
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">FF0_FF1_F</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">HIGH_LEVEL</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">FF2_FF3_F</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">HIGH_LEVEL</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">DETECTION_OF_F</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">HIGH_LEVEL</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

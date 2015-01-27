@@ -1,0 +1,35 @@
+Command line:
+   FFSR_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58777
+
+Tue Jan 20 02:59:00 2015
+
+
+ Elaboration Time: 0.436803 sec
+
+ Current Memory Usage: 843.895 Meg
+
+ Total Signals          : 11
+ Total Nets             : 6
+ Total Signal Drivers   : 6
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 5
+ Total Traceable Variables  : 9
+ Total Scalar Nets and Variables : 367
+Total Line Count : 30
+
+** Failure:Fin de la simulación...
+User(VHDL) Code Called Simulation Stop
+In process FFSR_tb.vhd:stim_proc 
+ 
+
+
+ Total Simulation Time: 0.436803 sec
+
+ Current Memory Usage: 843.895 Meg
+
+Tue Jan 20 02:59:09 2015
+

@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.4
+# Build 222254 by xbuild on Tue Dec 18 05:23:01 MST 2012
+# Start of session at: Sun Jan 18 20:29:08 2015
+# Process ID: 8824
+# Log file: C:/Users/Serrano/Desktop/SED/planAhead_run_3/planAhead.log
+# Journal file: C:/Users/Serrano/Desktop/SED/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/Serrano/Desktop/SED/pa.fromNetlist.tcl

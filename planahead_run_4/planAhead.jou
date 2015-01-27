@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# PlanAhead v14.1 (64-bit)
+# Build 179419 by xbuild on Thu Apr 26 11:43:29 MDT 2012
+# Start of session at: Mon Jan 19 12:02:03 2015
+# Process ID: 3416
+# Log file: C:/Users/sed/Desktop/SED/planAhead_run_4/planAhead.log
+# Journal file: C:/Users/sed/Desktop/SED/planAhead_run_4/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/sed/Desktop/SED/pa.fromNetlist.tcl
+set_property iostandard LVCMOS33 [get_ports [list {digctrl[3]}]]
+exit
